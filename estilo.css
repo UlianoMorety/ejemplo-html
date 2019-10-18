@@ -1,0 +1,34 @@
+td, th{
+    padding: 10px;
+}
+#conteiner{
+    width: 79%; 
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+#encabezado{
+    background-color: rgba(60, 75, 105, 0.534);
+    font-weight: bold;
+    text-align: center;
+    font-size; 48px;
+    width: 100%;
+    float: right;
+}
+#encabezado p{
+    font: 1em sans-serif;
+    font-size: 14;
+}
+#info{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 20%;
+    float: left;
+
+}
+#
+@media screen and (max-device-width : 480px){
+    #info, #conteiner{
+        width:100%;
+    }
+}
